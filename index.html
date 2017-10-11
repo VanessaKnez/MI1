@@ -3,36 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="vanessa knez">
+    <!-- CSS -->
+    <link href="opmaak.css" rel="stylesheet" type="text/css">
+    
 	<title>mijn eigen website</title>
 </head>
-<style>
-    body{background-color: lightblue;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-size: 16px;}
-    #vk{color: magenta;
-        font-size: 20px;}
-    hr{border-bottom-color: blue;}
-</style>
-
 
 <body>
 	<!-- hieronder staat de navigatie -->
-	<ul>
-	<li><a href="index.html">home</a></li> 
-	<li><a href="persoonlijkegegevens.html">persoonlijke gegevens</a></li>
-	<li><a href="hyperlinks.html">favoriete hyperlinks</a></li> 
-	</ul><hr><br>
-
+    <div id="menu">
+        <ul>
+        <li><a href="index.html">home</a></li> 
+        <li><a href="persoonlijkegegevens.html">persoonlijke gegevens</a></li>
+        <li><a href="hyperlinks.html">favoriete hyperlinks</a></li> 
+        </ul><br>
+    </div>
 	<!-- hieronder staat de rest van de pagina -->
 
 	<br>
 
 	<!-- hier een foto van mij toevoegen -->
 
-	<center>
-        <img src="fotos/19727055_529689760713277_279383499_o.jpg" alt="foto" height="220" width="200"><br>
-        <img src="fotos/22251181_529689517379968_1348646390_o.jpg" alt="foto" height="150" width="200"> 
+	<div id="center">
+        <!-- wanneer op foto geklikt wordt gaat het naar een andere foto -->
+        <a href="fotos/22251181_529689517379968_1348646390_o.jpg"><img src="fotos/IMG_20170402_230408_254.jpg" alt="foto" height="400" width="400"></a><br>
 
         <div id="vk"><p>Vanessa Knez &#9827</p></div>
 
@@ -41,10 +35,10 @@
             1000 Brussel
         </address><br>
 
-        <p>geboortedatum: 17/07/1999</p>
+        <div id="geboortedatum"><p>geboortedatum: 17/07/1999</p></div>
 
-        <a href="mailto:myspambox1999@hotmail.com"><img src="email.gif" alt="foto van een email" height="200" width="200"></a>
-    </center
+        <a href="mailto:myspambox1999@hotmail.com"><img src="fotos/email1600.jpg" alt="foto van een email" height="200" width="200"></a>
+    </div>
 </body>
 
 </html> 
