@@ -1,0 +1,9 @@
+body{background-color: blueviolet;
+        text-align: center;
+        font-family: verdana;}
+
+hr{border-bottom-color: black;
+    border-top-color: black;}
+
+a{color: black;
+    text-decoration: none;}
