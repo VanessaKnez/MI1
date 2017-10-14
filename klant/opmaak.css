@@ -1,0 +1,18 @@
+body {background-color: #800000;
+        font-family: verdana;
+        font-size: 100%;
+        color: white;}
+
+h1{background-color: black;
+    color: white;}
+
+h2{background-color: white;
+    color: black;}
+
+table{border: 1px;
+        border-collapse: collapse;}
+
+td{height: 10%;
+    vertical-align: text-top;
+    padding: 1%;
+    text-align: left;}
