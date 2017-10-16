@@ -22,4 +22,5 @@ body{font-family: verdana;
              padding-left: 2%}
 
 .vragen{font-size: 100%;
-        font-style: italic;}
+        font-style: italic;
+        text-decoration: underline;}
