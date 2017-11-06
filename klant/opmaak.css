@@ -27,3 +27,8 @@ td{height: 10%;
     vertical-align: text-top;
     padding: 1%;
     text-align: left;}
+
+a{text-decoration: none;
+    color: white;}
+
+a:hover{color: black;}
