@@ -1,0 +1,30 @@
+body{background-image: url(photos/indexBackground.jpg);
+        background-size: 100% 836px;
+        background-repeat: no-repeat;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;}
+
+li {float: right;}
+
+li a {display: block;
+        padding: 8px;
+        color: gray;}
+
+.dropbtn {color: gray;
+            border: none;
+            background-color: transparent;
+            font-family: arial;}
+
+.dropdown-content {display: none;
+                    min-width: 20%;}
+
+.dropdown-content a {color: gray;
+                        padding: 8px 0;
+                        text-decoration: none;
+                        text-align: left;}
+
+.dropdown:hover .dropdown-content {display: block;}
