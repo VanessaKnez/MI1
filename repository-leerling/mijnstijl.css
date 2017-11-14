@@ -1,0 +1,39 @@
+.titel
+{
+    font-size: 150%;
+    text-align: center;
+}
+
+body
+{
+    background-color: #E0FFFF;
+}
+
+hr
+{
+	color: #F08080;
+	background-color: #F08080;
+	height: 3px;
+	border: 0;
+}
+
+table,td, th
+{
+    border: 2px solid #F08080;
+    border-collapse: collapse;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table
+{
+	margin-left: auto; 
+    margin-right: auto;
+}
+
+th
+{
+	background-color: #FFB6C1;
+}
