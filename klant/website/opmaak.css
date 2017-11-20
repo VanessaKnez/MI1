@@ -1,8 +1,31 @@
 body{font-family: arial;
-        background-image: url(photos/backgroundWebsite.jpg);
+        color: gray;
+        background-image: url(photos/Photos_Site_Web/fond_site_web-zip.jpg);
         background-size: 100% 936px;
-        background-repeat: no-repeat;}
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        top: 0;
+        position: fixed;}
+
+h1{color: red;
+        text-decoration-line: underline;}
+
+#blok{background-color: white;
+        height: 100%;
+        width: 90%;
+        border-left: 3px gray;
+        border-right: 3px gray;
+        margin-right: 7%;
+        margin-left: 4%;
+        margin-bottom: 1%;
+        padding-left: 2%;
+        top: 0em;}
 
 li{list-style: none;}
 
-#CoEtCoIm{float: left;}
+/* #CoEtCoIm{float: left;} */
+
+#ColourRed{color: red;
+            text-decoration-line: underline;}

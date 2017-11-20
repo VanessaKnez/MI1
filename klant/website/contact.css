@@ -30,3 +30,19 @@ textarea{outline: yellow;
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;}
+
+#questions{color: red;
+            text-align: center;}
+
+.button{background-color: darkgrey;
+		color: red;
+		padding: 6px 20px;
+		margin: 6px 0;
+		border: red;
+		border-radius: 6px;
+		cursor: pointer;
+		}
+
+.button:hover{background-color: grey;}
+
+#linkSocial{text-align: center;}
