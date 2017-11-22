@@ -1,24 +1,31 @@
-body{background-image: url(photos/Photos_Site_Web/indexBackground-zip.jpg);
-        background-size: 100% 836px;
+body{background-image: url(photos/Photos_Site_Web/indexBackground-zip.jpg)  ;
+        /* background-size: 100% 836px; */
+        background-size: 100% 100vh;
         background-repeat: no-repeat;}
 
-ul {list-style-type: none;
+nav ul {list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;}
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 2px;}
 
-li {float: right;}
+nav li {float: right;
+        background-color: white;}
 
-li a {display: block;
+nav li a {display: block;
         padding: 8px;
         color: gray;}
 
-/* .dropbtn {color: gray;
+.dropbtn {color: gray;
             border: none;
             background-color: transparent;
-            font-family: arial;}
+            font-family: arial;
+            padding: 0;}
 
+/*
 .dropdown-content {display: none;
                     min-width: 20%;}
 
@@ -29,7 +36,7 @@ li a {display: block;
 
 .dropdown:hover .dropdown-content {display: block;} */
 
-li a, .dropbtn {
+nav li a, .dropbtn {
     font-family: arial;
     color: white;
     text-align: center;
@@ -37,24 +44,25 @@ li a, .dropbtn {
     text-decoration: none;
     border-color: transparent;
     background-color: transparent;
+    font-size: 11;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn {
     color: red;
 }
 
-li.dropdown {
+nav li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
+nav .dropdown-content {
     display: none;
     position: absolute;
     background-color: transparent; /* block beneden hover */
     min-width: 160px;
 }
 
-.dropdown-content a {
+nav .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -62,12 +70,12 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: transparent;} /* wanneer je over de menu in de dropdown gaat */
+nav .dropdown-content a:hover {background-color: transparent;} /* wanneer je over de menu in de dropdown gaat */
 
-.dropdown:hover .dropdown-content {
+nav .dropdown:hover .dropdown-content {
     display: block;}
 
-/* ----------------------------- responsive sidenav ------------------------------ */
+/* ----------------------------- responsive topnav ------------------------------ */
 
 ul.topnav {
     list-style-type: none;
