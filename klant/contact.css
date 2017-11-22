@@ -1,0 +1,48 @@
+input[type=text], select{width: 40%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;}
+
+input[type=email], select{width: 40%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;}
+
+input[type=tel], select{width: 40%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;}
+
+textarea{outline: yellow;
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;}
+
+#questions{color: red;
+            text-align: center;}
+
+.button{background-color: darkgrey;
+		color: red;
+		padding: 6px 20px;
+		margin: 6px 0;
+		border: red;
+		border-radius: 6px;
+		cursor: pointer;
+		}
+
+.button:hover{background-color: grey;}
+
+#linkSocial{text-align: center;}

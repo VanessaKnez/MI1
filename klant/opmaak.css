@@ -1,34 +1,47 @@
-body {background-color: #800000;
-        font-family: verdana;
-        font-size: 100%;
-        color: white;
-        margin: 0;}
-
-h1{background-color: black;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0em;
+body {
+    font-family: arial;
+    color: gray;
+    background-image: url(photos/Photos_Site_Web/fond_site_web-zip.jpg);
+    /* background-size: 100% 936px; */
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
     margin: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;}
+    padding: 0;
+    border: 0;
+    top: 0;
+    height: 100%;
+    position: fixed;
+}
 
-h2{background-color: white;
-    color: black;}
+h1 {
+    color: red;
+    text-decoration-line: underline;
+}
 
-h1 + h2{margin-top: 2.5em;}
+#blok {
+    background-color: white;
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 1%;
+    top: 0em;
+    height: 100vh;
+    overflow: auto;
+    border: solid 3px white;
+}
 
-table{border: 1px;
-        border-collapse: collapse;}
+li {
+    list-style: none;
+}
 
-td{height: 10%;
-    vertical-align: text-top;
-    padding: 1%;
-    text-align: left;}
 
-a{text-decoration: none;
-    color: white;}
+/* #CoEtCoIm{float: left;} */
 
-a:hover{color: black;}
+#CoEtCoIm {
+    margin-top: 20%
+}
+
+#ColourRed {
+    color: red;
+    text-decoration-line: underline;
+}
