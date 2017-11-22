@@ -1,0 +1,47 @@
+body {
+    font-family: arial;
+    color: gray;
+    background-image: url(photos/Photos_Site_Web/fond_site_web-zip.jpg);
+    /* background-size: 100% 936px; */
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    height: 100%;
+    position: fixed;
+}
+
+h1 {
+    color: red;
+    text-decoration-line: underline;
+}
+
+#blok {
+    background-color: white;
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 1%;
+    top: 0em;
+    height: 100vh;
+    overflow: auto;
+    border: solid 3px white;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* #CoEtCoIm{float: left;} */
+
+#CoEtCoIm {
+    margin-top: 20%
+}
+
+#ColourRed {
+    color: red;
+    text-decoration-line: underline;
+}
