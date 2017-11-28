@@ -30,6 +30,7 @@ h1 {
     border: solid 3px white;
 }
 
+
 li {
     list-style: none;
 }
@@ -45,3 +46,120 @@ li {
     color: red;
     text-decoration-line: underline;
 }
+
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------- nav ------------------------------------ */
+
+nav{color: gray;}
+
+nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 2px;}
+
+nav li {float: right;
+        background-color: white;}
+
+nav li a {display: block;
+        padding: 8px;
+        color: gray;}
+
+/* ----------------------------------- nav ------------------------------------ */
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------- dropdown button ------------------------------ */
+
+.dropbtn {color: gray;
+            border: none;
+            background-color: transparent;
+            font-family: arial;
+            font-size: 16px;
+            padding: 0;}
+
+
+.dropdown-content {display: none;
+                    min-width: 20%;
+                    font-family: arial;
+                    font-size: 11;}
+
+.dropdown-content a {color: gray;
+                        padding: 8px 0;
+                        text-decoration: none;
+                        text-align: left;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+nav li a, .dropbtn {
+    font-family: arial;
+    color: gray;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    color: red;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent; /* block beneden hover */
+    min-width: 160px;
+}
+
+nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .dropdown-content a:hover {background-color: transparent;} /* wanneer je over de menu in de dropdown gaat */
+
+nav .dropdown:hover .dropdown-content {
+    display: block;}
+
+/* ----------------------------- dropdown button ------------------------------ */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------- responsive topnav ----------------------------- */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: gray;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {color: red;}
+
+ul.topnav li a.active {background-color: transparent; color: blue;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+/* ---------------------------- responsive topnav ----------------------------- */

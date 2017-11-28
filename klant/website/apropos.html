@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<meta name="author" content="vanessa knez">
+    <meta charset="UTF-8">
+    <meta name="author" content="vanessa knez">
     <title>Audrey Garcia</title>
     <!-- CSS -->
-    <link href="opmaak.css" rel="stylesheet" type="text/css">
-    
-</head>
+    <link href="opmaak.css" rel="stylesheet" type="text/css"> </head>
 
 <body>
-    <div id="blok">
+    <div id="blok"> 
         
-        <img src="photos/Photos_Site_Web/ga.jpg" alt="logo" width="100" height="100">
+        <!-- foto logo -->
+        <img src="photos/Photos_Site_Web/ga.jpg" alt="logo">
         
+        <!-- -------------------------- menu -------------------------- -->
         <nav>
-            <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+            <ul class="topnav">
                 <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Portfolio</button>
+                        <div class="dropdown-content">
+                            <a href="portfolio/publicite.html">Publicite</a>
+                            <a href="portfolio/shooting.html">Shooting</a>
+                            <a href="portfolio/reportage.html">Reportage</a>
+                            <a href="portfolio/autresPhotos.html">Autres photos</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="index.html">Home</a></li> <!-- class="../active" -->
             </ul>
         </nav>
-        
+        <!-- -------------------------- menu -------------------------- -->
+
         <img src="photos/Photos_Site_Web/IMG_3704-zip.jpg" width="300" height="300" align="left" hspace="20" alt="une photo de Audrey">
-        
         <div id="intro">
             <p>Audrey Garcia Gutierrez, 21 ans.</p>
             <p>Diplômée en photographie de l’Institut Redouté Peiffer en 2014, et actuellement à l’ESA Saint Luc Bruxelles en publicité.</p>
-            <p>Maman me disait constament « Si tu connaissais tes cours comme tu connais les publicités par coeur se serait mieux ».<br>
-                Depuis toujours omnibulée par la publicité, le dessin et bien-sur la photo cette direction fu donc inévitable.</p>
+            <p>Maman me disait constament « Si tu connaissais tes cours comme tu connais les publicités par coeur se serait mieux ».
+                <br> Depuis toujours omnibulée par la publicité, le dessin et bien-sur la photo cette direction fu donc inévitable.</p>
         </div>
-
         <div id="CoEtCoIm">
-            <div id="ColourRed"><p>Concours et contrats importants</p></div>
+            <div id="ColourRed">
+                <p>Concours et contrats importants</p>
+            </div>
             <ul>
                 <lI>▲ 2013 - Concours photographique parmis les finalistes</lI>
                 <lI>▲ 2015 - Photo de qualification reprise sur la carte de fin d’année de la Ministre F. Lanaan</lI>
@@ -45,4 +57,4 @@
     </div>
 </body>
 
-</html> 
+</html>
