@@ -10,7 +10,7 @@ select {
 }
 
 input[type=text]:focus {
-    border: 2px solid red;
+    border: 2px solid #aa2734;
     background-color: lightgray;
 }
 
@@ -48,22 +48,22 @@ textarea {
 }
 
 #questions {
-    color: red;
+    color: #aa2734;
     text-align: center;
 }
 
 .button {
     background-color: darkgrey;
-    color: red;
+    color: #aa2734;
     padding: 6px 20px;
     margin: 6px 0;
-    border: red;
+    border: #aa2734;
     border-radius: 6px;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: grey;
+    background-color: #8a8b8a;
 }
 
 #linkSocial {

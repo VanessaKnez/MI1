@@ -1,6 +1,6 @@
 body {
     font-family: arial;
-    color: gray;
+    color: #8a8b8a; /* gray */
     background-image: url(photos/Photos_Site_Web/fond_site_web-zip.jpg);
     /* background-size: 100% 936px; */
     background-size: 100% 100vh;
@@ -14,8 +14,9 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #aa2734; /* red */
     text-decoration-line: underline;
+    padding-left: 1vw;
 }
 
 #blok {
@@ -39,18 +40,23 @@ li {
 /* #CoEtCoIm{float: left;} */
 
 #CoEtCoIm {
-    margin-top: 20%
+    margin-top: 12%;
+    padding-left: 1vw;
 }
 
 #ColourRed {
-    color: red;
+    color: #aa2734;
     text-decoration-line: underline;
+    padding-left: 1vw;
 }
+
+img{padding-left: 1vw;
+    padding-bottom: 1vw;}
 
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------- nav ------------------------------------ */
 
-nav{color: gray;}
+nav{color: #8a8b8a;}
 
 nav ul {list-style-type: none;
     margin: 0;
@@ -58,7 +64,7 @@ nav ul {list-style-type: none;
     overflow: hidden;
     text-align: center;
     border-bottom-style: solid;
-    border-color: red;
+    border-color: #aa2734;
     border-width: 2px;}
 
 nav li {float: right;
@@ -66,13 +72,13 @@ nav li {float: right;
 
 nav li a {display: block;
         padding: 8px;
-        color: gray;}
+        color: #8a8b8a;}
 
 /* ----------------------------------- nav ------------------------------------ */
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------- dropdown button ------------------------------ */
 
-.dropbtn {color: gray;
+.dropbtn {color: #8a8b8a;
             border: none;
             background-color: transparent;
             font-family: arial;
@@ -85,7 +91,7 @@ nav li a {display: block;
                     font-family: arial;
                     font-size: 11;}
 
-.dropdown-content a {color: gray;
+.dropdown-content a {color: #8a8b8a;
                         padding: 8px 0;
                         text-decoration: none;
                         text-align: left;}
@@ -94,7 +100,7 @@ nav li a {display: block;
 
 nav li a, .dropbtn {
     font-family: arial;
-    color: gray;
+    color: #8a8b8a;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
@@ -103,7 +109,7 @@ nav li a, .dropbtn {
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-    color: red;
+    color: #aa2734;
 }
 
 nav li.dropdown {
@@ -130,6 +136,8 @@ nav .dropdown-content a:hover {background-color: transparent;} /* wanneer je ove
 nav .dropdown:hover .dropdown-content {
     display: block;}
 
+#linkSocial{text-align: center;}
+
 /* ----------------------------- dropdown button ------------------------------ */
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------- responsive topnav ----------------------------- */
@@ -146,12 +154,12 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color: gray;
+    color: #8a8b8a;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {color: red;}
+ul.topnav li a:hover:not(.active) {color: #aa2734;}
 
 ul.topnav li a.active {background-color: transparent; color: blue;}
 
