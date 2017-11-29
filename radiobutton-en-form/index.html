@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="vanessa knez">
+    <title>Radiobutton en Form</title>
+    <link href="opmaak.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h3>Welkom!</h3>
+    <br>
+    
+    <!-- ------------------------------------------------------------------- -->
+    <!-- ----------------------- Formulieren ------------------------------- -->
+    <form action="/action_page.php"> Naam:
+        <br>
+        <input type="text" name="firstname" value="">
+        <br> Voornaam:
+        <br>
+        <input type="text" name="lastname" value="">
+        <br> Email adres:
+        <br>
+        <input type="email" name="lastname" value="">
+        <br><br>
+        
+        <!-- ----------------------- Formulieren ------------------------------- -->
+        <!-- ------------------------------------------------------------------- -->
+        <!-- ----------------------- Radiobutton ------------------------------- -->
+        
+            <input type="radio" name="gender" value="Man"> Man
+            <br>
+            <input type="radio" name="gender" value="Vrouw"> Vrouw
+            <br>
+        <br>
+        <br>
+        
+        <!-- ----------------------- Radiobutton ------------------------------- -->
+        <!-- ------------------------------------------------------------------- -->
+        <!-- ---------------------- Geboortedatum ------------------------------ -->
+
+        <select id="selectie">
+            <option value="1">januari</option>
+            <option value="2">februari</option>
+            <option value="3">maart</option>
+            <option value="4">april</option>
+            <option value="5">mei</option>
+            <option value="6">juni</option>
+            <option value="7">juli</option>
+            <option value="8">augustus</option>
+            <option value="9">september</option>
+            <option value="10">oktober</option>
+            <option value="11">november</option>
+            <option value="12">december</option>
+        </select>
+        
+        geef dag in:
+        <input type="number" min="1" max="31" id="dag">
+        <br><br>
+        
+        <!-- ---------------------- Geboortedatum ------------------------------ -->
+        <!-- ------------------------------------------------------------------- -->
+        <!-- --------------------- Favoriete vakken ---------------------------- -->
+
+        Favoriete vakken:<br>
+        <select name="favoriete-vakken" size="10" multiple>
+            <option value="Frans">Frans</option>
+            <option value="Nederlands">Nederlands</option>
+            <option value="Netwerken">Netwerken</option>
+            <option value="System-Management">System-Management</option>
+            <option value="Database">Database</option>
+            <option value="Mobile-en-Internet">Mobile-en-Internet</option>
+            <option value="Software-engineering">Software-engineering</option>
+            <option value="Information-Management">Information-Management</option>
+            <option value="Application-development">Application-development</option>
+            <option value="Business">Business</option>
+        </select>
+        
+        <!-- --------------------- Favoriete vakken ---------------------------- -->
+        <!-- ------------------------------------------------------------------- -->
+        <!-- ---------------------- Beoogde punten ----------------------------- -->
+
+        <br>
+        <br>
+        Beoogde punten MI1:
+        <input type="number" min="1" max="20" id="beoogde-punten">
+        <br>
+        <br>
+        <input type="checkbox" name="dag" value="Maandag">Maandag
+        <br>
+        <input type="checkbox" name="dag" value="Dinsdag">Dinsdag
+        <br>
+        <input type="checkbox" name="dag" value="Woensdag">Woensdag
+        <br>
+        <input type="checkbox" name="dag" value="Donderdag">Donderdag
+        <br>
+        <input type="checkbox" name="dag" value="Vrijdag">Vrijdag
+        <br>
+        <input type="checkbox" name="dag" value="Zaterdag">zaterdag
+        <br>
+        <input type="checkbox" name="dag" value="Zondag">Zondag
+        <br><br>
+        <textarea rows="4" cols="50" placeholder="content" name="content"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        </form>
+        
+    <!-- ---------------------- Beoogde punten ----------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+
+</body>
+
+</html>
