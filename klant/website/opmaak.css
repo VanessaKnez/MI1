@@ -31,18 +31,11 @@ h1 {
     border: solid 3px white;
 }
 
-
-li {
-    list-style: none;
-}
-
-
-/* #CoEtCoIm{float: left;} */
-
-#CoEtCoIm {
-    margin-top: 12%;
+/* #CoEtCoIm {
+    text-align: justify;
+    margin-top: 0vh;
     padding-left: 1vw;
-}
+} */
 
 #ColourRed {
     color: #aa2734;
@@ -53,12 +46,24 @@ li {
 img{padding-left: 1vw;
     padding-bottom: 1vw;}
 
+ul{
+    list-style-image: url('photos/Photos_Site_Web/triangle.jpg');
+    list-style-position: inside;
+}
+
+#img-apropos{ text-align: left; 
+    /* hspace: 20; */ }
+
+#img-contact{ text-align: left; 
+    /* hspace: 20; */ }
+
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------- nav ------------------------------------ */
 
 nav{color: #8a8b8a;}
 
 nav ul {list-style-type: none;
+    list-style-image: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -119,8 +124,8 @@ nav li.dropdown {
 nav .dropdown-content {
     display: none;
     position: absolute;
-    background-color: transparent; /* block beneden hover */
-    min-width: 160px;
+    background-color: white; /* block beneden hover */
+    min-width: 120px;
 }
 
 nav .dropdown-content a {
@@ -168,6 +173,85 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    nav .dropdown-content{position: static;}
+    nav .dropdown-content a{text-align: center;}
+    #form{text-align: center;}
 }
 
 /* ---------------------------- responsive topnav ----------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------ contact form -------------------------------- */
+
+input[type=text],
+select {
+    width: 50vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 2px solid #aa2734;
+    background-color: lightgray;
+}
+
+input[type=email],
+select {
+    width: 50vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel],
+select {
+    width: 50vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    outline: yellow;
+    width: 50vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#questions {
+    color: #aa2734;
+    text-align: center;
+}
+
+.button {
+    background-color: darkgrey;
+    color: #aa2734;
+    padding: 6px 20px;
+    margin: 6px 0;
+    border: #aa2734;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8a8b8a;
+}
+
+#linkSocial {
+    text-align: center;
+}
+
+/* ------------------------------ contact form -------------------------------- */
