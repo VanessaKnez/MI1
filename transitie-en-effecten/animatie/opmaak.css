@@ -1,17 +1,17 @@
-div {
+#vierkant1 {
     width: 100px;
     height: 100px;
     background-color: red;
     position: relative;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
+    animation-name: vierkant1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes vierkant1 {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:95%; top:0px;}
     50%  {background-color:blue; left:95%; top:860px;}
@@ -20,10 +20,43 @@ div {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes vierkant1 {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:95%; top:0px;}
     50%  {background-color:blue; left:95%; top:860px;}
     75%  {background-color:green; left:0px; top:860px;}
     100% {background-color:red; left:0px; top:0px;}
+}
+
+#vierkant2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: vierkant2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes vierkant2 {
+    0%   {background-color:red; left:200px; top:100px;}
+    25%  {background-color:yellow; left:85%; top:100px;}
+    50%  {background-color:blue; left:85%; top:560px;}
+    75%  {background-color:green; left:200px; top:560px;}
+    100% {background-color:red; left:200px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes vierkant2 {
+    0%   {background-color:red; left:200px; top:100px;}
+    25%  {background-color:yellow; left:85%; top:100px;}
+    50%  {background-color:blue; left:85%; top:560px;}
+    75%  {background-color:green; left:200px; top:560px;}
+    100% {background-color:red; left:200px; top:0px;}
 }
