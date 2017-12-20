@@ -1,0 +1,75 @@
+        body {
+        background-image: url(nieuwjaar-en-kerst.jpg);
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: lightgray;
+    }
+    
+    #header {
+        height: 75vh;
+        width: 40vw;
+        opacity: 0.6;
+        position: relative;
+        border: solid 3px transparant;
+        margin-left: 2vw;
+        margin-top: 4vh;
+        background-color: #ffdab3;
+        opacity: 0.4;
+        color: black;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p,
+    img {
+        margin-top: 1vh;
+        margin-left: 0.5vw;
+    }
+    
+    img {
+        height: 30%;
+        width: 30%;
+    }
+    
+    a {
+        margin-left: 2vw;
+        margin-top: 5vw;
+        text-decoration: none;
+        color: darkred;
+        font-size: 200%;
+        -webkit-transition: font-size 2s;
+        /* For Safari 3.1 to 6.0 */
+        transition: font-size 2s;
+    }
+    
+    a:hover {
+        font-size: 300%;
+        color: darkblue;
+    }
+    
+    @media screen and (max-width: 600px) {
+        body {
+            background-image: url(littleScreen.jpg);
+            background-size: 100% 100vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: darkred;
+        }
+        #header {
+            height: 120vh;
+            width: 90vw;
+            opacity: 0.6;
+            position: relative;
+            border: solid 3px transparant;
+            margin-left: 2vw;
+            margin-top: 4vh;
+            background-color: #ffdab3;
+            opacity: 0.6;
+            color: black;
+        }
+        img {
+            height: 30%;
+            width: 90%;
+        }
