@@ -1,6 +1,5 @@
 body {
     background-image: url(photos/Photos_Site_Web/fond_site_web-zip.jpg);
-    /* background-size: 100% 836px; */
-    background-size: 100% 100vh;
+    background-size: 100% 836px;
     background-repeat: no-repeat;
 }
